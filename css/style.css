@@ -589,7 +589,7 @@ table {
 	#hero {
 		width: 100%;
 		height: 100vh;
-		background: url("../img/hero.JPG") top center;
+		background: url("../img/IMG_4060.jpg") top center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -600,27 +600,27 @@ table {
 		left: 0px;
 		top: 0px;
 
-		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
+		background: linear-gradient(90deg, rgba(18, 18, 18, 0.73) 0%, rgba(19, 19, 19, 0.441042) 25.52%, rgba(0, 0, 0, 0) 50%);
 	}
 
 	#hero h1 {
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Hurricane', cursive;
 		text-transform: none;
+		padding-left: 100px;
 		font-size: 75px;
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 56px;
 		color: #fff;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 	}
 	
 	#hero h2 {
+		padding-left: 235px;
 		color: #eee;
-		text-align: center;
-		padding-top: 300px;
 		padding-bottom: 10px;
 		font-size: 22.5px;
-		font-weight: 300;
-		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-family: "Ibarra Real Nova", serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 	}
 
@@ -1085,29 +1085,31 @@ table {
 	#hero {
 		width: 100%;
 		height: 100vh;
-		background: url("../img/hero.JPG") top center;
+		background: url("../img/IMG_4060.jpg") top center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
 
 	#hero h1 {
-		font-family: 'Dancing Script', cursive;
+		justify-content: left;
+		font-family: 'Hurricane', cursive;
 		text-transform: none;
-		font-size: 82px;
-		font-weight: 700;
+		font-size: 96px;
+		font-weight: 400;
 		line-height: 56px;
-		color: #c88931;
+		color: #ffff;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 		z-index: 1;
 	}
 
 	#hero h2 {
-		text-align: center;
-		color: #ffcc81;
+		justify-content: left;
+		color: #fff;
 		margin-bottom: 20px;
-		font-size: 24px;
-		font-weight: 300;
-		font-family: "Poppins", sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+		line-height: 56px;
+		font-family: "Ibarra Real Nova", serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 		z-index: 1;
 	}
@@ -1119,7 +1121,7 @@ table {
 		left: 0px;
 		top: 0px;
 
-		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 39.58%, #A3B0C3 100%);
+		background: linear-gradient(90deg, rgba(18, 18, 18, 0.73) 0%, rgba(19, 19, 19, 0.441042) 25.52%, rgba(0, 0, 0, 0) 50%);
 	}
 
 	/*--------------------------
@@ -1539,6 +1541,57 @@ table {
 	}
 
 
+	#commentbox{
+		background-color: #fefde9;
+	}
+	.comment-section {
+		max-width: 500px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	
+	.comment-list {
+		margin-top: 20px;
+	}	  
+	
+	.comment {
+		margin-bottom: 10px;
+	}	  
+	
+	.comment .commenter {
+		font-weight: bold;
+	}	  
+	
+	.comment .content {
+		margin-top: 5px;
+	}
+	
+	#comment-form {
+		margin-top: 20px;
+	}
+	
+	#comment-form input,
+	#comment-form textarea {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#comment-form button {
+		padding: 10px 15px;
+	}
+
+
+
+
+
+
+	.spesial{
+		font-size: 8px;
+		text-align: center;
+		color: #e5cda7;
+	}
+
 
 
 	.authorr{
@@ -1552,47 +1605,4 @@ table {
 		color: #e5cda7;
 	}
 
-	.comment-section {
-		max-width: 500px;
-		margin: 0 auto;
-		padding: 20px;
-	  }
-	  
-	  .comment-list {
-		margin-top: 20px;
-	  }
-	  
-	  .comment {
-		margin-bottom: 10px;
-	  }
-	  
-	  .comment .commenter {
-		font-weight: bold;
-	  }
-	  
-	  .comment .content {
-		margin-top: 5px;
-	  }
-	  
-	  #comment-form {
-		margin-top: 20px;
-	  }
-	  
-	  #comment-form input,
-	  #comment-form textarea {
-		display: block;
-		width: 100%;
-		margin-bottom: 10px;
-	  }
-	  
-	  #comment-form button {
-		padding: 10px 15px;
-	  }
-
-	  
-	.spesial{
-		font-size: 8px;
-		text-align: center;
-		color: #e5cda7;
-	}
 }

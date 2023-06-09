@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Handlee&family=Kaushan+Script&family=Poppins:wght@400;700&family=Scheherazade+New&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 
 
@@ -29,8 +32,8 @@
 <body>
 
 
-    <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-        <div class="efek-ft"></div>
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="efek-ft  align-items-center"></div>
         <div class="judul-hero">
             <h2>The Wedding of</h2>
             <h1>Windy & Taufiq</h1>
@@ -219,23 +222,26 @@
         </section>
         -->
 
+        <!-- Comment box -->
+        <section id="commentbox">
+            <div class="comment-section">
+                <h2>Kirimkan Ucapan</h2>
+                <div class="comment-list">
+                <!-- Individual comments will be dynamically inserted here -->
+                </div>
+                <form id="comment-form">
+                <input type="text" id="name-input" placeholder="Your Name" required>
+                <textarea id="comment-input" placeholder="Your Comment" required>
+                
+                </textarea>
+                <button type="submit">Kirimkan</button>
+                </form>
+            </div>
+        </section>
+
         <section class="authorr d-flex flex-column align-items-center justify-content-center">
             <h1 class="ig">Ig saya : @windubay</h1>
             <h2 class="spesial">special thanks : flaticon</h2>
-        </section>
-        <section>
-            <div class="comment-section">
-                <h2>Comments</h2>
-                <div class="comment-list">
-                  <!-- Individual comments will be dynamically inserted here -->
-                </div>
-                <form id="comment-form">
-                  <input type="text" id="name-input" placeholder="Your Name" required>
-                  <textarea id="comment-input" placeholder="Your Comment" required></textarea>
-                  <button type="submit">Submit Comment</button>
-                </form>
-              </div>
-              
         </section>
     </main>
     <audio autoplay>
