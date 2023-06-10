@@ -98,6 +98,7 @@ table {
 		HERO
 		--------------------------*/
 
+@media screen and (max-width: 540px) {
 	#hero {
 		width: 100%;
 		height: 100vh;
@@ -110,7 +111,7 @@ table {
 		font-family: 'Hurricane', cursive;
 		text-align: center;
 		text-transform: none;
-		font-size: 40px;
+		font-size: 55px;
 		font-weight: 400;
 		color: #fff;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
@@ -121,7 +122,7 @@ table {
 		text-align: center;
 		margin-top: 100px;
 		margin-bottom: 10px;
-		font-size: 15px;
+		font-size: 20px;
 		font-weight: 300;
 		font-family: "Ibarra Real Nova", serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 1);
@@ -137,41 +138,13 @@ table {
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.33) 37.5%, rgba(22, 22, 22, 0) 63.02%);
 	}
 		
-		
-	/*--------------------------
-		ARRUM	
-	--------------------------*/
-		
-	#arrum{
-		background-color: #fefde9;
-		padding: 30px 30px 30px 30px;
-		height: 400px;
-		color: #fff;
-		font-family: 'Scheherazade New', serif;
-	}
-		
-	#arrum h1{
-		text-align: center;
-		font-size: 15px;
-	}
-	#arrum h2{
-		text-align: center;
-		font-size: 10px;
-		padding-bottom: 5px;
-	}
-	#arrum h3{
-		font-family:'Poppins', sans-serif;
-		font-size: 10px;
-	}
-		
-		
-		
+
 		
 		/*--------------------------
 					COUPLE
 			--------------------------*/
 	#couple{
-		height: 1500px;
+		height: 1300px;
 		background-color: #fefde9;
 	}
 
@@ -184,15 +157,17 @@ table {
 	}
 
 	.jdl-buka h1{
-		font-size: 25px;
+		font-size: 30px;
 		font-family: 'Dancing Script', sans-serif;
 		text-transform: none;
 		padding-bottom: 25px;
+		margin: 0;
 	}
 
 	.jdl-buka h2{
-		font-size: 15px;
+		font-size: 13px;
 		font-family: 'Poppins', cursive;
+		margin: 0;
 	}
 
 	.warp-cpl .p-2{
@@ -200,17 +175,17 @@ table {
 	}
 		
 	#couple img{
-		border-radius: 200px;
-		border-width: 5px;
+		border-radius: 150px;
+		border-width: 4px;
 		border-style: solid;
 		border-color: #E9A846;
 		margin-bottom: 50px;
-		width: 200px;
-		height: 300px;
+		width: 150px;
+		height: 225px;
 	}
 		
 	.ring{
-		width: 75px;
+		width: 50px;
 	}	
 
 	.nama{
@@ -225,99 +200,103 @@ table {
 	.ortu{
 		font-family: 'Poppins', sans-serif;
 		font-weight: 400;
-		font-size: 15px;
+		font-size: 13px;
 		text-transform: none;
-		color: #eee;
+		color: #364655;
 		text-align: center;
 	}
-		
-		
-		
-			/*--------------------------
-						HITUNG MUNDUR dan AKAD
-				--------------------------*/
-	#htg-mndr{
-		height: 450px;
+
+
+
+
+	/*--------------------------
+			Akad
+	--------------------------*/
+	#akad{
+		height: 350px;
 		background-color: #fefde9;
+	}
+	
+	.wrap-akad{
+		width: 350px;
+	}
+
+	.wrap-akad h2{
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		padding-bottom: 25px;
+		text-align: center;
+	}
+	
+	#akad h1{
+		font-family:'Dancing Script', cursive;
+		color: #364655;
+		font-size: 35px;
+		text-align: center;
+		text-transform: none;
+		margin: 0;
+		text-align: center;
+	}
+
+	#akad h3{
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		margin: 0;
+		text-align: center;
+	}
+
+	.akd-nkh{
+		width: 250px;
+	}
+
+	.lok-akad{
+		width: 250px;
+	}
+
+
+	/*--------------------------
+				HITUNG MUNDUR dan AKAD
+		--------------------------*/
+	#resepsi{
+		background-color: #fefde9;
+		height: 350px;
 	}	
 
-	#htg-mndr .container {
-		color: #eee;
+	#resepsi .resepsi {
+		color: #364655;
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
 	}
 
-	#countdown{
-		font-size: 24px;
+	.resepsi h2{
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		margin: 0;
 	}
 
-	.akad{
-		text-align: center;
-		padding-bottom: 10pxpx;
-	}
-		
-	.pembuka{
-		color: #eee;
-		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
-	}
-		
 	.tanggal{
 		color: #E9A846;
 		font-family: 'Dancing Script', cursive;
-		font-size: 35px;
+		font-size: 25px;
 		text-transform: none;
-	}
-		
-	.hari-h{
-		font-family:'Poppins', sans-serif;
-		font-size: 15px;
-	}
-		
-	h1 {
-		font-weight: normal;
-		letter-spacing: .125rem;
-		text-transform: uppercase;
-	}
-
-	li {
-		display: inline-block;
-		font-size: 1.5em;
-		list-style-type: none;
-		padding: 1em;
-		text-transform: uppercase;
-	}
-		
-	li span {
-		display: block;
-		font-size: 4.5rem;
-	}
-
-	@media all and (max-: 768px) {
-		h1 {
-			font-size: calc(1.5rem * var(--smaller));
-		}
-		
-		li {
-			font-size: calc(1.125rem * var(--smaller));
-		}
-		
-		li span {
-			font-size: calc(3.375rem * var(--smaller));
-		}
+		padding: 30px;
+		margin: 0;
 	}
 
 	.ingat{
 		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
-		width: 120px;
-		height: 23px;
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
 		border-radius: 10px;
 		background-color: #E9A846;
 		text-align: center;
 		color: black;
 	}
-		
+
 		
 		
 
@@ -332,8 +311,8 @@ table {
 	#maps .jdl{
 		padding-bottom: 10px;
 		font-family: 'Dancing Script', cursive;
-		color: #eee;
-		font-size: 35px;
+		color: #364655;
+		font-size: 30px;
 		align-items: center;
 		text-transform: none;
 	}
@@ -348,18 +327,19 @@ table {
 	}
 		
 	#maps h2{
-		color: #eee;
+		color: #364655;
 		font-family: 'Poppins', sans-serif;
 		text-align: center;
-		font-size: 15px;
+		font-size: 13px;
 	}
 		
 	#maps h3{
 		color: #E9A846;
 		font-family: 'Poppins', sans-serif;
-		font-size: 15px;
+		font-size: 13px;
 		text-align: center;
 		padding-bottom: 15px;
+		margin: 0;
 	}
 		
 	.map{
@@ -387,8 +367,8 @@ table {
 		
 	#galeri h1{
 		font-family:'Dancing Script', cursive;
-		color: #eee;
-		font-size: 45px;
+		color: #364655;
+		font-size: 30px;
 		text-align: center;
 		text-transform: none;
 		padding-bottom: 30px;
@@ -424,8 +404,8 @@ table {
 	
 #hadiah h1{
 	font-family:'Dancing Script', cursive;
-	color: #eee;
-	font-size: 45px;
+	color: #364655;
+	font-size: 30px;
 	text-align: center;
 	text-transform: none;
 	padding-bottom: 30px;
@@ -433,25 +413,28 @@ table {
 	
 #hadiah h2{
 	padding: 5px;
-	color: #eee;
+	color: #364655;
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 }
 	
 #hadiah h3{
 	padding: 30px;
-	color: #eee;
+	color: #364655;
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 }
 	
 .rek{
 	width: 250px;
+	padding: 20px;
 }
 
 .logo{
+	border: 2px solid;
+	border-color: #e5cda7;
 	width: 150px;
 	height: 50px;
 	background-color: #f6fdff;
@@ -467,20 +450,23 @@ table {
 }
 	
 .kotak{
-	width: 50px;
+	border: 2px solid;
+	border-color: #e5cda7;
+	width: 150px;
 	height: 50px;
 	background-color: #f6fdff;
 	border-radius: 15px;
 }
-	.img-hdh{
-	width: 35px;
+
+	.bri{
+	width: 75px;
 }
 
 .salin{
 	font-family: 'Poppins', cursive;
-	width: 150px;
+	width: 100px;
 	height: 23px;
-	font-size: 15px;
+	font-size: 10px;
 	background-color: #E9A846;
 	border-radius: 10px;
 	border-style: none;
@@ -498,8 +484,8 @@ table {
 #penutup h1{
 	font-family: 'Dancing Script', sans-serif;
 	text-align: center;
-	font-size: 25px;
-	color: #eee;
+	font-size: 30px;
+	color: #364655;
 	text-decoration: none;
 	text-transform: none;
 	padding-top: 30px;
@@ -508,57 +494,11 @@ table {
 #penutup h2{
 	font-family: 'Poppins', cursive;
 	text-align: center;
-	font-size: 15px;
-	color: #eee;
+	font-size: 13px;
+	color: #364655;
 	text-decoration: none;
 	text-transform: none;
 }
-
-
-
-		/* PROKES */
-		#prokes{
-			height: 1000px;
-			background-color: #E9D6CD;
-		}
-	
-		#prokes .judul{
-			font-family:'Dancing Script', cursive;
-			color: #0009;
-			font-size: 45px;
-			text-align: center;
-			text-transform: none;
-			margin: 0;
-			padding-bottom: 30px;
-		}
-	
-		#prokes h2{
-			padding: 10px 20px 10px 20px;
-			font-family: 'Poppins', sans-serif;
-			font-size: 15px;
-			text-align: center;
-		}
-	
-		#prokes h3{
-			font-family: 'Poppins', sans-serif;
-			font-size: 10px;
-			text-align: center;
-		}
-
-		#prokes img{
-			width: 100px;
-			margin: 25px;
-		}
-
-		.wrap-prokes{
-			padding-bottom: 70px;
-		}
-	
-		.prok1, .prok2, .prok3, .prok4{
-			width: 150px;
-		}
-	
-
 
 
 	.authorr{
@@ -577,6 +517,7 @@ table {
 	}
 
 
+}
 
 
 
@@ -585,17 +526,26 @@ table {
 
 
 
-@media only screen and (min-width: 840px) {
+
+
+
+
+@media only screen and (min-width: 540px) {
 	/*--------------------------
 	HERO
 	--------------------------*/
 	#hero {
 		width: 100%;
 		height: 100vh;
-		background: url("../img/herovertikal.jpg") top center;
+		background: url("../img/IMG_4060.jpg") top center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
+
+	#hero .judul-hero{
+		padding: 50vh 0;
+	}
+
 	#hero .efek-ft{
 		position: absolute;
 		width: 100%;
@@ -611,8 +561,7 @@ table {
 		text-transform: none;
 		padding-left: 100px;
 		font-size: 75px;
-		font-weight: 600;
-		line-height: 56px;
+		font-weight: 400;
 		color: #fff;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
 	}
@@ -625,52 +574,24 @@ table {
 		font-weight: 400;
 		font-family: "Ibarra Real Nova", serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
+		margin: 0;
 	}
 
-	
-	/*--------------------------
-	ARRUM	
-	--------------------------*/
-	
-	#arrum{
-		background-color: #fefde9;
-		padding: 30px 30px 30px 30px;
-		height: 800px;
-		color: #fff;
-		font-family: 'Scheherazade New', serif;
-	}
 
-	#arrum h1{
-		padding-top: 10px;
-		font-size: 35px;
-		text-align: center;
-	}
-	#arrum h2{
-		font-size: 25px;
-		padding-bottom: 25px;
-	}
-	#arrum h3{
-		font-family:'Poppins', sans-serif;
-		font-size: 20px;
-	}
-
-	
-	
-	
 		/*--------------------------
 					COUPLE
 		--------------------------*/
 	#couple{
-		height: 800px;
+		height: 900px;
 		background-color: #fefde9;
 	}
 
 
 	.jdl-buka{
-		width: 800px;
+		width: 90%;
 		text-align: center;
 		text-transform: none;
-		color: #eee;
+		color: #364655;
 		margin-bottom: 75px;
 	}
 
@@ -688,7 +609,7 @@ table {
 
 	
 	.warp-cpl .p-2{
-		width: 400px;
+		width: 300px;
 	}
 	
 	#couple img{
@@ -719,119 +640,118 @@ table {
 		font-weight: 400;
 		font-size: 15px;
 		text-transform: none;
-		color: #eee;
+		color: #364655;
 		text-align: center;
 	}
 	
+
+		/*--------------------------
+				Akad
+		--------------------------*/
+
+		#akad{
+			height: 350px;
+			background-color: #fefde9;
+		}
+		
+		.wrap-akad{
+			width: 1500px;
+		}
+	
+		.wrap-akad h2{
+			color: #364655;
+			font-family: 'Poppins', sans-serif;
+			font-size: 20px;
+			padding-bottom: 25px;
+		}
+		
+		#akad h1{
+			font-family:'Dancing Script', cursive;
+			color: #364655;
+			font-size: 50px;
+			text-align: center;
+			text-transform: none;
+			margin: 0;
+			text-align: right;
+			padding-right: 30px;
+		}
+	
+		#akad h3{
+			color: #364655;
+			font-family: 'Poppins', sans-serif;
+			font-size: 20px;
+			margin: 0;
+		}
+	
+		.akd-nkh{
+			width: 350px;
+			height: 200px;
+			border-right: 3px solid;
+			border-color: #E9A846;
+		}
+	
+		.lok-akad{
+			width: 550px;
+			height: 200px;
+		}
 	
 	
 		/*--------------------------
 					HITUNG MUNDUR dan AKAD
 			--------------------------*/
-	#htg-mndr{
-		background-color: #fefde9;
-		height: 600px;
-	}	
+		#resepsi{
+			background-color: #fefde9;
+			height: 350px;
+		}	
 	
-	#htg-mndr .container {
-		color: #eee;
-		text-align: center;
-		font-family: 'Dancing Script', cursive;
-	}
-
-	
-	#countdown{
-		font-size: 24px;
-	}
-
-	
-	.akad{
-		text-align: center;
-		padding-bottom: 25px;
-	}
-	
-	.pembuka{
-		color: #eee;
-		font-family: 'Poppins', sans-serif;
-		font-size: 20px;
-		padding-bottom: 15px;
-	}
-	
-	.tanggal{
-		color: #E9A846;
-		font-family: 'Dancing Script', cursive;
-		font-size: 58px;
-		text-transform: none;
-	}
-	
-	.hari-h{
-		font-family:'Poppins', sans-serif;
-		font-size: 20px;
-	}
-
-	ul{	
-		padding-bottom: 25px;
-	}
-	
-	h1 {
-		font-weight: normal;
-		letter-spacing: .125rem;
-		text-transform: uppercase;
-	}
-	
-	li {
-		display: inline-block;
-		font-size: 1.5em;
-		list-style-type: none;
-		padding: 1em;
-		text-transform: uppercase;
-	}
-	
-	li span {
-		display: block;
-		font-size: 4.5rem;
-	}
-	
-	@media all and (max-width: 768px) {
-		h1 {
-			font-size: calc(1.5rem * var(--smaller));
+		#resepsi .resepsi {
+			color: #364655;
+			text-align: center;
+			font-family: 'Dancing Script', cursive;
 		}
-			
-		li {
-			font-size: calc(1.125rem * var(--smaller));
+	
+		.resepsi h2{
+			color: #364655;
+			font-family: 'Poppins', sans-serif;
+			font-size: 20px;
+			margin: 0;
 		}
-			
-		li span {
-			font-size: calc(3.375rem * var(--smaller));
+	
+		.tanggal{
+			color: #E9A846;
+			font-family: 'Dancing Script', cursive;
+			font-size: 58px;
+			text-transform: none;
+			padding: 30px;
+			margin: 0;
 		}
-	}
+	
+		.ingat{
+			font-family: 'Poppins', sans-serif;
+			width: 125px;
+			height: 25px;
+			font-size: 15px;
+			border-radius: 10px;
+			background-color: #E9A846;
+			text-align: center;
+			color: black;
+		}
 
-	.ingat{
-		font-family: 'Poppins', sans-serif;
-		width: 140px;
-		height: 25px;
-		font-size: 16px;
-		border-radius: 10px;
-		background-color: #E9A846;
-		text-align: center;
-		color: black;
-	}
-	
-	
-	
-	
+
+
+
 	/*--------------------------
 				MAPS
 		--------------------------*/
 	#maps{
-		height: 900px;
+		height: 700px;
 		background-color: #fefde9;
 	}
 	
 	#maps .jdl{
 		padding-top: 25px;
 		font-family: 'Dancing Script', cursive;
-		color: #eee;
+		color: #364655;
 		font-size: 60px;
 		align-items: center;
 		text-transform: none;
@@ -839,16 +759,17 @@ table {
 	}
 	
 	iframe{
-		width: 600px;
-		height: 400px;
+		width: 300px;
+		height: 200px;
 		border-radius: 20px;
-		border: 5px solid;
+		border: 10px;
+		border-style: solid;
 		border-color: #E9A846;
 		margin: 30px;
 	}
 	
 	#maps h2{
-		color: #eee;
+		color: #364655;
 		font-family: 'Poppins', sans-serif;
 		font-size: 20px;
 	}
@@ -884,7 +805,7 @@ table {
 
 	#galeri h1{
 		font-family:'Dancing Script', cursive;
-		color: #eee;
+		color: #364655;
 		font-size: 60px;
 		text-align: center;
 		text-transform: none;
@@ -904,16 +825,13 @@ table {
 		-webkit-transform: scale(1.08);
 		transform: scale(1.08);
 	}
-	
-
-
 		
 	/*--------------------------
 				Hadiah
 		--------------------------*/
 
 		#hadiah{
-			height: 800px;
+			height: 600px;
 			background-color: #fefde9;
 		}
 	
@@ -923,7 +841,7 @@ table {
 	
 		#hadiah h1{
 			font-family:'Dancing Script', cursive;
-			color: #eee;
+			color: #364655;
 			font-size: 60px;
 			text-align: center;
 			text-transform: none;
@@ -932,7 +850,7 @@ table {
 	
 		#hadiah h2{
 			padding: 30px;
-			color: #eee;
+			color: #364655;
 			font-family: 'Poppins', sans-serif;
 			font-size: 20px;
 			text-align: center;
@@ -940,7 +858,7 @@ table {
 	
 		#hadiah h3{
 			padding: 30px;
-			color: #eee;
+			color: #364655;
 			font-family: 'Poppins', sans-serif;
 			font-size: 15px;
 			text-align: center;
@@ -950,6 +868,8 @@ table {
 			width: 500px;
 		}
 		.logo{
+			border: 2px solid;
+			border-color: #e5cda7;
 			width: 300px;
 			height: 125px;
 			background-color: #f6fdff;
@@ -965,14 +885,16 @@ table {
 		}
 	
 		.kotak{
-			width: 125px;
+			border: 2px solid;
+			border-color: #e5cda7;
+			width: 300px;
 			height: 125px;
 			background-color: #f6fdff;
 			border-radius: 40px;
 		}
 	
-		.img-hdh{
-			width: 100px;
+		.bri{
+			width: 150px;
 		}
 	
 		.salin{
@@ -986,7 +908,7 @@ table {
 
 
 		#penutup{
-			height: 800px;
+			height: 600px;
 			background-color: #fefde9;
 		}
 	
@@ -998,7 +920,7 @@ table {
 			font-family: 'Dancing Script', sans-serif;
 			text-align: center;
 			font-size: 60px;
-			color: #eee;
+			color: #364655;
 			text-decoration: none;
 			text-transform: none;
 			padding-top: 70px;
@@ -1009,7 +931,7 @@ table {
 			font-family: 'Poppins', cursive;
 			text-align: center;
 			font-size: 20px;
-			color: #eee;
+			color: #364655;
 			text-decoration: none;
 			text-transform: none;
 		}
@@ -1093,8 +1015,11 @@ table {
 		background-attachment: fixed;
 	}
 
+	#hero .judul-hero{
+		padding: 50vh 0;
+	}
+
 	#hero h1 {
-		justify-content: left;
 		font-family: 'Hurricane', cursive;
 		text-transform: none;
 		font-size: 96px;
@@ -1106,11 +1031,10 @@ table {
 	}
 
 	#hero h2 {
-		justify-content: left;
 		color: #fff;
 		margin-bottom: 20px;
 		font-size: 40px;
-		font-weight: 600;
+		font-weight: 400;
 		line-height: 56px;
 		font-family: "Ibarra Real Nova", serif;
 		text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.75);
@@ -1127,32 +1051,6 @@ table {
 		background: linear-gradient(90deg, rgba(18, 18, 18, 0.73) 0%, rgba(19, 19, 19, 0.441042) 25.52%, rgba(0, 0, 0, 0) 50%);
 	}
 
-	/*--------------------------
-		ARRUM	
-		--------------------------*/
-
-	#arrum{
-		background-color: #fefde9;
-		padding: 30px 30px 30px 30px;
-		height: 800px;
-		color: #fff;
-		font-family: 'Scheherazade New', serif;
-	}
-
-	#arrum h1{
-		text-align: center;
-		font-size: 45px;
-	}
-	#arrum h2{
-		text-align: center;
-		font-size: 35px;
-		padding-bottom: 25px;
-	}
-	#arrum h3{
-		font-family:'Poppins', sans-serif;
-		font-size: 25px;
-	}
-
 
 
 
@@ -1160,7 +1058,7 @@ table {
 				COUPLE
 		--------------------------*/
 	#couple{
-		height: 800px;
+		height: 1000px;
 		background-color: #fefde9;
 	}
 
@@ -1205,7 +1103,7 @@ table {
 	.nama{
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 600;
-		font-size: 30px;
+		font-size: 35px;
 		text-transform: none;
 		color: #E9A846;
 		text-align: center;
@@ -1214,7 +1112,7 @@ table {
 	.ortu{
 		font-family: 'Poppins', sans-serif;
 		font-weight: 400;
-		font-size: 15px;
+		font-size: 20px;
 		text-transform: none;
 		color: #364655;
 		text-align: center;
@@ -1222,37 +1120,73 @@ table {
 
 
 
+	
+	/*--------------------------
+				Akad
+		--------------------------*/
+
+	#akad{
+		height: 450px;
+		background-color: #fefde9;
+	}
+	
+	.wrap-akad{
+		width: 1500px;
+	}
+
+	.wrap-akad h2{
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+		padding-bottom: 50px;
+	}
+	
+	#akad h1{
+		font-family:'Dancing Script', cursive;
+		color: #364655;
+		font-size: 75px;
+		text-align: right;
+		text-transform: none;
+	}
+
+	#akad h3{
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+		padding-left: 30px;
+	}
+
+	.akd-nkh{
+		width: 550px;
+		height: 300px;
+		border-right: 3px solid;
+		border-color: #E9A846;
+	}
+
+	.lok-akad{
+		width: 700px;
+		height: 300px;
+	}
+
+
 	/*--------------------------
 				HITUNG MUNDUR dan AKAD
 		--------------------------*/
-	#htg-mndr{
+	#resepsi{
 		background-color: #fefde9;
-		height: 700px;
+		height: 350px;
 	}	
 
-	#htg-mndr .container {
+	#resepsi .resepsi {
 		color: #364655;
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
-	}
-
-	
-	#countdown{
-		padding: 60px;
-		font-size: 55px;
-	}
-
-
-	.akad{
-		text-align: center;
-		padding-bottom: 25px;
 	}
 
 	.pembuka{
 		color: #364655;
 		font-family: 'Poppins', sans-serif;
 		font-size: 25px;
-		padding-bottom: 20px;
 	}
 
 	.tanggal{
@@ -1260,44 +1194,7 @@ table {
 		font-family: 'Dancing Script', cursive;
 		font-size: 58px;
 		text-transform: none;
-	}
-
-	.hari-h{
-		font-family:'Poppins', sans-serif;
-		font-size: 25px;
-	}
-
-	h1 {
-		font-weight: normal;
-		letter-spacing: .125rem;
-		text-transform: uppercase;
-	}
-
-	li {
-		display: inline-block;
-		font-size: 1.5em;
-		list-style-type: none;
-		padding: 1em;
-		text-transform: uppercase;
-	}
-
-	li span {
-		display: block;
-		font-size: 4.5rem;
-	}
-
-	@media all and (max-width: 768px) {
-		h1 {
-			font-size: calc(1.5rem * var(--smaller));
-		}
-		
-		li {
-			font-size: calc(1.125rem * var(--smaller));
-		}
-		
-		li span {
-			font-size: calc(3.375rem * var(--smaller));
-		}
+		padding: 30px;
 	}
 
 	.ingat{
@@ -1333,11 +1230,9 @@ table {
 
 	iframe{
 		width: 600px;
-		height:  400px;
-		border-radius: 20px;
 		border: 10px solid;
 		border-color: #E9A846;
-		margin: 30px;
+		height:  400px;
 		padding: 10 10 10 10;
 	}
 
@@ -1371,34 +1266,35 @@ table {
 				GALERI
 		--------------------------*/
 	#galeri{
-		height: 900px;
+		height: 1000px;
 		background-color: #fefde9;
-		padding-top: 150px;
 	}
 
-	#galeri h1{
-		font-family:'Dancing Script', cursive;
-		color: #364655;
-		font-size: 75px;
-		text-align: center;
-		text-transform: none;
-		padding-bottom: 30px;
-	}
-		
-	#galeri img{
-		width: 350px;
-		border-radius: 20px;
-		margin: 20px;
-		
-		-webkit-transition: 0.4s ease;
-		transition: 0.4s ease;
+	.foto{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
 	}
 
-	#galeri img:hover{
-		-webkit-transform: scale(1.08);
-		transform: scale(1.08);
+	.swiper {
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
+	.swiper-slide {
+		background-position: center;
+		background-size: cover;
+		width: 400px;
+		height: 853px;
+	}
+
+	.prwd img{
+		position: relative;
+		width: 800px;
+	}
 
 	
 	/*--------------------------
@@ -1444,6 +1340,8 @@ table {
 		height: 400px;
 	}
 	.logo{
+		border: 2px solid;
+		border-color: #e5cda7;
 		width: 300px;
 		height: 125px;
 		background-color: #f6fdff;
@@ -1460,14 +1358,16 @@ table {
 	}
 
 	.kotak{
-		width: 125px;
+		border: 2px solid;
+		border-color: #e5cda7;
+		width: 300px;
 		height: 125px;
 		background-color: #f6fdff;
 		border-radius: 40px;
 	}
 
-	.img-hdh{
-		width: 100px;
+	.bri{
+		width: 150px;
 	}
 
 	.salin{
@@ -1482,7 +1382,7 @@ table {
 
 
 	#penutup{
-		height: 1000px;
+		height: 600px;
 		background-color: #fefde9;
 	}
 
@@ -1508,39 +1408,6 @@ table {
 		color: #364655;
 		text-decoration: none;
 		text-transform: none;
-	}
-
-
-	#prokes{
-		height: 700px;
-		background-color: #E9D6CD;
-	}
-
-	#prokes .judul{
-		font-family:'Dancing Script', cursive;
-		color: #000;
-		font-size: 75px;
-		text-align: center;
-		text-transform: none;
-		margin: 0;
-		padding-bottom: 30px;
-	}
-
-	#prokes h2{
-		padding: 10px 20px 10px 20px;
-		font-family: 'Poppins', sans-serif;
-		font-size: 25px;
-		text-align: center;
-	}
-
-	#prokes h3{
-		font-family: 'Poppins', sans-serif;
-		font-size: 20px;
-		text-align: center;
-	}
-
-	.prok1, .prok2, .prok3, .prok4{
-		width: 300px;
 	}
 
 
