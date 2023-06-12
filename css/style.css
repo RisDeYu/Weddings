@@ -93,6 +93,37 @@ table {
 }
 
 
+::-webkit-scrollbar {
+	width: .0rem;
+}
+  
+::-webkit-scrollbar-thumb {
+	border-radius: 1rem;
+	background: #797979;
+	transition: all 0.5s ease-in-out;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+	background: #222224;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #fefde9 0%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/* CSS START */
 	/*--------------------------
 		HERO
@@ -157,7 +188,8 @@ table {
 
 	.jdl-buka h1{
 		font-size: 30px;
-		font-family: 'Dancing Script', sans-serif;
+		font-family: 'Parisienne', cursive;
+		font-weight: 500;
 		text-transform: none;
 		padding-bottom: 25px;
 		margin: 0;
@@ -260,8 +292,8 @@ table {
 		--------------------------*/
 	#resepsi{
 		background-color: #fefde9;
-		height: 350px;
-	}	
+		height: 250px;
+	}
 
 	#resepsi .resepsi {
 		color: #364655;
@@ -303,24 +335,24 @@ table {
 				MAPS
 		--------------------------*/
 	#maps{
-		height: 500px;
+		height: 600px;
 		background-color: #fefde9;
 	}
 		
 	#maps .jdl{
 		padding-bottom: 10px;
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Parisienne', cursive;
 		color: #364655;
-		font-size: 30px;
+		font-size: 35px;
 		align-items: center;
 		text-transform: none;
 	}
 
 	iframe{
-		width: 250px;
-		height: 150px;
+		width: 330px;
+		height: 220px;
 		border-radius: 10px;
-		border: 3px solid;
+		border: 2px solid;
 		border-color: #E9A846;
 		margin: 20px;
 	}
@@ -333,11 +365,11 @@ table {
 	}
 		
 	#maps h3{
-		color: #E9A846;
+		color: #364655;
 		font-family: 'Poppins', sans-serif;
 		font-size: 13px;
 		text-align: center;
-		padding-bottom: 15px;
+		padding-bottom: 20px;
 		margin: 0;
 	}
 		
@@ -365,9 +397,10 @@ table {
 	}
 		
 	#galeri h1{
-		font-family:'Dancing Script', cursive;
+		font-family: 'Parisienne', cursive;
+		font-weight: 500;
 		color: #364655;
-		font-size: 30px;
+		font-size: 35px;
 		text-align: center;
 		text-transform: none;
 		padding-bottom: 30px;
@@ -391,6 +424,11 @@ table {
 		border-radius: 2rem;
 		object-fit: cover;
 	}
+
+	.slider-arrow{
+		color: #fefde9;
+	}
+
 	/*
 	#galeri img{
 		width: 300px;
@@ -500,9 +538,9 @@ table {
 	}
 
 	#penutup h1{
-		font-family: 'Dancing Script', sans-serif;
+		font-family: 'Parisienne', cursive;
 		text-align: center;
-		font-size: 30px;
+		font-size: 35px;
 		color: #364655;
 		text-decoration: none;
 		text-transform: none;

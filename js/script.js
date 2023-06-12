@@ -1,8 +1,5 @@
 function myFunction() {
-  var copyText = 4790483435
 
-  copyText.select();
-  copyText.setSelectionRange(0, 9999999999)
   // Copy the text inside the text field
   navigator.clipboard.writeText("4790483435");
   
