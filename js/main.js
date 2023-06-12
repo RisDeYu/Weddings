@@ -9,22 +9,31 @@ let tl = gsap.timeline(
 tl.from('.wrap-arrum',{delay:.5, duration:1, y:100, opacity:0});
 tl.from('.jdl-buka',{delay:.6, duration:1, opacity:0});
 
-var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
+
+// album Product Slider-start
+var TrandingSlider = new Swiper('.album-slider', {
+  effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: "auto",
+  loop: true,
+  slidesPerView: 'auto',
   coverflowEffect: {
-    rotate: 50,
+    rotate: 0,
     stretch: 0,
     depth: 100,
-    modifier: 1,
-    slideShadows: true,
+    modifier: 2.5,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });
+// album Product Slider-end
+
 
     var disqus_config = function () {
     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable

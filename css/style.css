@@ -100,11 +100,10 @@ table {
 
 @media screen and (max-width: 540px) {
 	#hero {
-		width: 100%;
 		height: 100vh;
 		background: url("../img/herovertikal.jpg")center;
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 	}
 
 	#hero h1 {
@@ -374,8 +373,27 @@ table {
 		padding-bottom: 30px;
 	}
 		
+	#galeri .album-slider{
+		height: 400px;
+		padding: 2rem 0;
+		position: relative;
+	}
+
+	.album-slide{
+		width: 250px;
+		height: 333px;
+		position: relative;
+	}
+
+	.album-slide .album-slide-img img {
+		width: 250px;
+		height: 333px;
+		border-radius: 2rem;
+		object-fit: cover;
+	}
+	/*
 	#galeri img{
-		width: 150px;
+		width: 300px;
 		border-radius: 20px;
 		margin: 5px;
 		
@@ -387,134 +405,144 @@ table {
 		-webkit-transform: scale(1.08);
 		transform: scale(1.08);
 	}
+*/
 
+	/*--------------------------
+					Hadiah
+			--------------------------*/
 
-/*--------------------------
-				Hadiah
-		--------------------------*/
-
-#hadiah{
-	height: 800px;
-	background-color: #fefde9;
-	}
-	
-.wrap-hadiah{
-	width: 350px;
-}
-	
-#hadiah h1{
-	font-family:'Dancing Script', cursive;
-	color: #364655;
-	font-size: 30px;
-	text-align: center;
-	text-transform: none;
-	padding-bottom: 30px;
-}
-	
-#hadiah h2{
-	padding: 5px;
-	color: #364655;
-	font-family: 'Poppins', sans-serif;
-	font-size: 13px;
-	text-align: center;
-}
-	
-#hadiah h3{
-	padding: 30px;
-	color: #364655;
-	font-family: 'Poppins', sans-serif;
-	font-size: 13px;
-	text-align: center;
-}
-	
-.rek{
-	width: 250px;
-	padding: 20px;
-}
-
-.logo{
-	border: 2px solid;
-	border-color: #e5cda7;
-	width: 150px;
-	height: 50px;
-	background-color: #f6fdff;
-	border-radius: 15px;
-}
-
-.bca{
-	width: 100px;
-}
-
-.fisik{
-	width: 250px;
-}
-	
-.kotak{
-	border: 2px solid;
-	border-color: #e5cda7;
-	width: 150px;
-	height: 50px;
-	background-color: #f6fdff;
-	border-radius: 15px;
-}
-
-	.bri{
-	width: 75px;
-}
-
-.salin{
-	font-family: 'Poppins', cursive;
-	width: 100px;
-	height: 23px;
-	font-size: 10px;
-	background-color: #E9A846;
-	border-radius: 10px;
-	border-style: none;
-}
-
-#penutup{
-	height: 500px;
-	background-color: #fefde9;
-}
-
-.kontener{
-	width: 350px;
-}
-
-#penutup h1{
-	font-family: 'Dancing Script', sans-serif;
-	text-align: center;
-	font-size: 30px;
-	color: #364655;
-	text-decoration: none;
-	text-transform: none;
-	padding-top: 30px;
-}
-
-#penutup h2{
-	font-family: 'Poppins', cursive;
-	text-align: center;
-	font-size: 13px;
-	color: #364655;
-	text-decoration: none;
-	text-transform: none;
-}
-
-
-	.authorr{
-		height: 75px;
-		background-color: #A3B0C3;
+	#hadiah{
+		height: 800px;
+		background-color: #fefde9;
+		}
+		
+	.wrap-hadiah{
+		width: 350px;
 	}
 		
-	.ig{
+	#hadiah h1{
+		font-family:'Dancing Script', cursive;
+		color: #364655;
+		font-size: 30px;
+		text-align: center;
+		text-transform: none;
+		padding-bottom: 30px;
+	}
+		
+	#hadiah h2{
+		padding: 5px;
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		text-align: center;
+	}
+		
+	#hadiah h3{
+		padding: 30px;
+		color: #364655;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		text-align: center;
+	}
+		
+	.rek{
+		width: 250px;
+		padding: 20px;
+	}
+
+	.logo{
+		border: 2px solid;
+		border-color: #e5cda7;
+		width: 150px;
+		height: 50px;
+		background-color: #f6fdff;
+		border-radius: 15px;
+	}
+
+	.bca{
+		width: 100px;
+	}
+
+	.fisik{
+		width: 250px;
+	}
+		
+	.kotak{
+		border: 2px solid;
+		border-color: #e5cda7;
+		width: 150px;
+		height: 50px;
+		background-color: #f6fdff;
+		border-radius: 15px;
+	}
+
+		.bri{
+		width: 75px;
+	}
+
+	.salin{
+		font-family: 'Poppins', cursive;
+		width: 100px;
+		height: 23px;
 		font-size: 10px;
-		text-align: center;
+		background-color: #E9A846;
+		border-radius: 10px;
+		border-style: none;
 	}
-		
-	.spesial{
-		font-size: 5px;
-		text-align: center;
+
+	#penutup{
+		height: 500px;
+		background-color: #fefde9;
 	}
+
+	.kontener{
+		width: 350px;
+	}
+
+	#penutup h1{
+		font-family: 'Dancing Script', sans-serif;
+		text-align: center;
+		font-size: 30px;
+		color: #364655;
+		text-decoration: none;
+		text-transform: none;
+		padding-top: 30px;
+	}
+
+	#penutup h2{
+		font-family: 'Poppins', cursive;
+		text-align: center;
+		font-size: 13px;
+		color: #364655;
+		text-decoration: none;
+		text-transform: none;
+	}
+
+
+
+	.komenbox{
+		height: 800px;
+	}
+
+	#disqus_thread{
+		width: 300px;
+	}
+
+
+		.authorr{
+			height: 75px;
+			background-color: #A3B0C3;
+		}
+			
+		.ig{
+			font-size: 10px;
+			text-align: center;
+		}
+			
+		.spesial{
+			font-size: 5px;
+			text-align: center;
+		}
 
 
 }
