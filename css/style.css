@@ -569,6 +569,7 @@ table {
 	HERO
 	--------------------------*/
 	#hero {
+		width: 100%;
 		height: 100vh;
 		background: url("../img/IMG_4060.jpg") top center;
 		background-size: cover;
