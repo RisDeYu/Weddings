@@ -15,21 +15,3 @@ function myFunction1() {
   // Alert the copied text
   //alert("Ingin menyalin nomor rekening?");
 }
-
-document.getElementById("comment-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  
-  var name = document.getElementById("name-input").value;
-  var comment = document.getElementById("comment-input").value;
-  
-  if (name.trim() !== "" && comment.trim() !== "") {
-    var commentElement = document.createElement("div");
-    commentElement.classList.add("comment");
-    commentElement.innerHTML = '<span class="commenter">' + name + '</span><div class="content">' + comment + '</div>';
-    
-    document.querySelector(".comment-list").appendChild(commentElement);
-    
-    document.getElementById("name-input").value = "";
-    document.getElementById("comment-input").value = "";
-  }
-});
