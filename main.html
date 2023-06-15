@@ -289,7 +289,10 @@
 
 
         <!-- Ucapan -->
-        <section id="ucapan">
+        <section class="d-flex flex-column align-items-center justify-content-center" id="ucapan">
+            <div class="ucapan">
+                <h1>Ucapkan Sesuatu</h1>
+            </div>
             <div class="powr-comments" id="95c80bfb_1686747235"></div>
         </section>
 
@@ -301,9 +304,27 @@
     </main>
 
 
-    <audio controls autoplay>
-        <source id="musik" src="music/bgm.mp3" type="audio/mp3">
-    </audio>
+    <div class="musik">
+        <audio autoplay>
+            <source id="musik" src="music/bgm.mp3" type="audio/mp3">
+        </audio>
+        <div class="btns">
+            <span id="play-pause">
+                <ion-icon name="pause-circle-outline"></ion-icon>
+            </span>
+            <span id="mute">
+                <ion-icon name="volume-high-outline"></ion-icon>
+            </span>
+        </div>
+    </div>
+
+
+
+
+    <!-- ikon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
     <!-- gsap -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -312,6 +333,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+
 
     <!-- js swiper-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
