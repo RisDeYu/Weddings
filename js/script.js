@@ -1,16 +1,8 @@
-// Get the button
-let mybutton = document.querySelector("header");
+window.addEventListener("scroll", function(){
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", this.window.scrollY > 0)
+})
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
 
 // Set the date we're counting down to
 var countDownDate = new Date("July 08, 2023 10:00:00").getTime();

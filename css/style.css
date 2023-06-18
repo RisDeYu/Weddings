@@ -139,6 +139,8 @@ table {
 		border-radius: 5px;
 		background-color: #E9A846;
 		box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+		opacity: 0;
+		transition: .3s;
 	}
 
 	#nav span{
@@ -150,6 +152,11 @@ table {
 	}
 	#nav img{
 		width: 30px;
+	}
+
+	.sticky #nav{
+		opacity: 1;
+		transition: ease-in-out 1s;
 	}
 
 
@@ -668,6 +675,36 @@ table {
 
 
 @media only screen and (min-width: 540px) {
+
+	#nav{
+		position: fixed;
+		bottom: 35px;
+		z-index: 10;
+		margin: 0;
+		text-align: center;
+		padding: 5px;
+		border-radius: 5px;
+		background-color: #E9A846;
+		box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+		visibility: hidden;
+	}
+
+	#nav span{
+		display: inline-block;
+		background-color: #fefde9;
+		padding: 5px;
+		border-radius: 5px;
+		border: 2px solid #E9A846;
+	}
+	#nav img{
+		width: 30px;
+	}
+
+	.sticky #nav{
+		visibility: visible;
+	}
+
+
 	/*--------------------------
 	HERO
 	--------------------------*/
@@ -1129,6 +1166,35 @@ table {
 
 
 @media screen and (min-width: 1800px) {
+	#nav{
+		position: fixed;
+		bottom: 35px;
+		z-index: 10;
+		margin: 0;
+		text-align: center;
+		padding: 5px;
+		border-radius: 5px;
+		background-color: #E9A846;
+		box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+		visibility: hidden;
+	}
+
+	#nav span{
+		display: inline-block;
+		background-color: #fefde9;
+		padding: 5px;
+		border-radius: 5px;
+		border: 2px solid #E9A846;
+	}
+	#nav img{
+		width: 30px;
+	}
+
+	.sticky #nav{
+		visibility: visible;
+	}
+
+
 	/*--------------------------
 		HERO
 		--------------------------*/
