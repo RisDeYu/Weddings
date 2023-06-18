@@ -67,17 +67,18 @@ body {
 	# Hero Section
 	--------------------------------------------------------------*/
 	#hero{
-		width: 100%;
 		height: 100vh;
-		background-color: #fefde9;
+		background: url("../img/prewed(6).jpg")center;
 		background-size: cover;
 	}
 
 	.ucapan{
-		color: #004D6A;
+		color: #fff;
+		text-shadow: #364655;
 		text-align: center;
 		text-transform: none;
 		font-family: 'Poppins', sans-serif;
+		z-index: 1;
 	}
 
 	.ucapan h5{
@@ -115,6 +116,16 @@ body {
 		border-radius: 5px;
 		background-color: #E2B84B;
 		text-align: center;
+		z-index: 1;
+	}
+
+	#hero .efek-ft{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		left: 0px;
+		top: 0px;
+		background: rgba(0, 0, 0, 0.4);
 	}
 
 
