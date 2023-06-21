@@ -7,7 +7,7 @@ let tl = gsap.timeline(
 );
 
 tl.from('.wrap-arrum',{delay:.5, duration:1, y:100, opacity:0});
-tl.from('.jdl-buka',{delay: 0, duration:.2, opacity:0});
+
 
 
 // album Product Slider-start
