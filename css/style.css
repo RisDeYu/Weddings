@@ -134,7 +134,6 @@ table {
 		overflow: hidden;
 	}
 
-
 	#nav{
 		position: fixed;
 		bottom: 35px;
@@ -211,25 +210,38 @@ table {
 		background-color: #fefde9;
 	}
 
-	#svg-cpl{
+	.svg-cpl{
 		position: absolute;
-		margin-top: 175px;
-		right: -20px;
+		margin-top: 165px;
+		right: -15px;
 		z-index: 9;
 	}
 
-	#svg-cpl img{
-		width: 360px;
+	.svg-cpl img{
+		width: 300px;
 	}
 
-	#svg-cpl1{
+	.svg-cpl1{
 		position: absolute;
-		margin-top: 705px;
+		margin-top: 935px;
+		left: -40px;
+		z-index: 9;
+	}
+
+	.svg-cpl1 img{
+		width: 300px;
+	}
+
+	.dhn-cpl{
+		position: absolute;
+		margin-top: 1170px;
 		left: -40px;
 	}
 
-	#svg-cpl1 img{
-		width: 360px;
+	.dhn-cpl img{
+		width: 100px;
+		rotate: 160deg;
+		transform: scaleX(-1);
 	}
 
 	.jdl-buka{
@@ -544,7 +556,16 @@ table {
 	#hadiah{
 		height: 800px;
 		background-color: #fefde9;
-		}
+	}
+
+	.hdh-fto{
+		position: absolute;
+		margin-top: 1300px;
+	}
+	.hdh-fto img{
+		width: 250px;
+		rotate: 15deg;
+	}
 		
 	.wrap-hadiah{
 		width: 350px;
@@ -621,12 +642,13 @@ table {
 	}
 
 	#penutup{
-		height: 500px;
+		height: 900px;
 		background-color: #fefde9;
 	}
 
 	.kontener{
 		width: 350px;
+		padding-top: 250px;
 	}
 
 	#penutup h1{
@@ -648,6 +670,14 @@ table {
 		text-transform: none;
 	}
 
+	.ttp{
+		position: absolute;
+		margin-top: 550px;
+	}
+
+	.ttp img{
+		width: 150px;
+	}
 
 	
 	#powrIframeLoader{
@@ -656,6 +686,13 @@ table {
 
 	#ucapan{
 		background-color: #fefde9;
+	}
+
+	#ucapan h1{
+		font-family: 'Hurricane', cursive;
+		font-size: 50px;
+		font-weight: 500;
+		color: #364655;
 	}
 
 	iframe{
